@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- REMIX ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <title>Brand - Lorem, ipsum.</title>
+  </head>
+  <body>
+    <!-- HEADER START -->
+
+    <header
+      id="navbar"
+      class="bg-white fixed w-full top-0 left-0 z-50 shadow-md shadow-gray-200"
+    >
+      <nav class="container flex items-center justify-between h-16 sm:h-20">
+        <div class="text-3xl font-bold font-Poppins">
+          <a href="#home">Brand.</a>
+        </div>
+        <div
+          id="nav-menu"
+          class="absolute top-0 left-[-100%] min-h-[100vh] w-full bg-white/50 backdrop-blur-[8px] flex items-start pt-28 justify-center overflow-hidden duration-300 lg:static lg:duration-0 lg:pt-0 lg:min-h-fit lg:bg-transparent lg:w-auto"
+        >
+          <ul class="flex flex-col items-center gap-5 lg:flex-row">
+            <li>
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#service" class="nav-link">Service</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-xl sm:text-2xl cursor-pointer z-50 lg:hidden">
+          <i class="ri-menu-line" id="hamburger"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HEADER END -->
+
+    <!-- HERO START -->
+
+    <section
+      id="home"
+      class="bg-[url('/assets/img/3.jpg')] bg-cover text-white relative"
+    >
+      <div class="container">
+        <div
+          class="w-64 h-64 bg-slate-500 rounded-full blur-3xl -z-5 opacity-40 absolute bottom-0 right-0"
+        ></div>
+
+        <div></div>
+
+        <div class="flex flex-col items-center gap-5 lg:flex-row">
+          <div class="home__data w-full space-y-5 lg:w-1/2">
+            <h1 class="font-Poppins">
+              Lorem ipsum dolor sit <br />
+              amet consectetur <br />
+              adipisicing.
+            </h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi,
+              quisquam nam totam enim placeat quae reprehenderit minus amet quia
+              minima!
+            </p>
+            <div
+              class="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-4 xl:pt-10"
+            >
+              <button class="btn">Lorem.</button>
+
+              <button class="btn btn_outline">Lorem, ipsum.</button>
+            </div>
+            <div class="flex items-center gap-3.5 text-lg xl:pt-16">
+              <i
+                class="ri-instagram-line hover:text-slate-300 duration-300 cursor-pointer hover:scale-150 text-base"
+              ></i>
+              <i
+                class="ri-twitter-x-line hover:text-slate-300 duration-300 cursor-pointer hover:scale-150 text-base"
+              ></i>
+              <i
+                class="ri-youtube-fill hover:text-slate-300 duration-300 cursor-pointer hover:scale-150"
+              ></i>
+              <i
+                class="ri-facebook-fill hover:text-slate-300 duration-300 cursor-pointer hover:scale-150"
+              ></i>
+              <i
+                class="ri-tiktok-fill hover:text-slate-300 duration-300 cursor-pointer hover:scale-150"
+              ></i>
+            </div>
+          </div>
+
+          <div class="w-full relative lg:w-1/2">
+            <img
+              src="./assets/img/1.png"
+              alt="home_image"
+              class="home__image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO END -->
+
+    <!-- ABOUT START -->
+
+    <section id="about" class="relative overflow-hidden bg-white">
+      <div
+        class="about__top flex flex-col items-center gap-3 text-center mb-10"
+      >
+        <h4 class="font-bold text-xl md:text-2xl">About</h4>
+        <p class="mt-2 mb-4 max-w-md">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+          veritatis quod, consectetur voluptatibus ab totam!
+        </p>
+      </div>
+
+      <div class="container space-y-10 xl:space-y-0">
+        <div class="flex flex-col items-center lg:flex-row gap-5">
+          <div class="about__item__1-img w-full lg:w-1/2">
+            <img
+              src="assets/img/1.png"
+              alt="about_image1"
+              class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto"
+            />
+          </div>
+
+          <div class="about__item__1-text w-full lg:w-1/2">
+            <div class="space-y-5">
+              <h2 class="font-semibold text-lg">Lorem, ipsum dolor.</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+                numquam, pariatur odit distinctio, earum natus quo id nisi rerum
+                nemo cupiditate quae perferendis accusamus ducimus ipsa
+                temporibus saepe provident eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center lg:flex-row-reverse gap-5">
+          <div class="about__item__2-img w-full lg:w-1/2">
+            <img
+              src="assets/img/1.png"
+              alt="about_image1"
+              class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto"
+            />
+          </div>
+
+          <div class="about__item__2-text w-full lg:w-1/2">
+            <div class="space-y-5">
+              <h2 class="font-semibold text-lg">Lorem, ipsum dolor.</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+                numquam, pariatur odit distinctio, earum natus quo id nisi rerum
+                nemo cupiditate quae perferendis accusamus ducimus ipsa
+                temporibus saepe provident eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT END -->
+
+    <hr class="" />
+
+    <!-- SERVICE START -->
+
+    <section id="service" class="bg-white text-black py-20">
+      <div>
+        <div class="container">
+          <div class="w-full px-4">
+            <div class="service__top max-w-xl mx-auto text-center mb-6">
+              <h4 class="font-bold text-xl md:text-2xl">Our Services</h4>
+              <p class="mt-2 mb-16">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                pariatur assumenda placeat quod. Quos sequi laboriosam dolorem
+                ex esse numquam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container w-full grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3"
+        >
+          <div
+            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+          >
+            <div class="flex items-center gap-5">
+              <i
+                class="ri-graduation-cap-line text-2xl md:text-2xl lg:text-4xl"
+              ></i>
+              <p class="font-bold md:text-lg">Education</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, placeat.
+            </p>
+          </div>
+
+          <div
+            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+          >
+            <div class="flex items-center gap-5">
+              <i
+                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+              ></i>
+              <p class="font-bold md:text-lg">Assesment</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, placeat.
+            </p>
+          </div>
+
+          <div
+            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+          >
+            <div class="flex items-center gap-5">
+              <i
+                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+              ></i>
+              <p class="font-bold md:text-lg">Coaching</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, placeat.
+            </p>
+          </div>
+
+          <div
+            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+          >
+            <div class="flex items-center gap-5">
+              <i
+                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+              ></i>
+              <p class="font-bold md:text-lg">Training</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, placeat.
+            </p>
+          </div>
+
+          <div
+            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+          >
+            <div class="flex items-center gap-5">
+              <i
+                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+              ></i>
+              <p class="font-bold md:text-lg">Counseling</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, placeat.
+            </p>
+          </div>
+
+          <div
+            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+          >
+            <div class="flex items-center gap-5">
+              <i
+                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+              ></i>
+              <p class="font-bold md:text-lg">Happy Aging</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Dignissimos, placeat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE END -->
+
+    <!-- FOOTER START -->
+
+    <footer class="bg-stone-100 pt-20 pb-10 md:pt-28 relative mt-24">
+      <div
+        class="container absolute top-0 right-0 left-0 -translate-y-1/2 lg:max-w-2xl lg:w-auto"
+      >
+        <div
+          class="news__letter bg-white px-10 pt-5 pb-10 space-y-5 rounded-md border-2 border-black shadow-lg"
+        >
+          <h2 class="font-semibold text-lg">
+            Subscribe to our newsletter<br /><span class="font-normal text-base"
+              >Keep updated on our news.</span
+            >
+          </h2>
+          <div class="flex flex-col md:flex-row gap-2">
+            <input
+              type="email"
+              placeholder="Input Your Email Address"
+              class="w-full px-5 py-2 rounded-md outline-none border border-black"
+            />
+            <button
+              class="btn_subs flex items-center gap-1 bg-stone-100 px-5 py-3 rounded-md hover:opacity-80 duration-300 justify-center"
+            >
+              <span>Subscribe</span><i class="ri-send-plane-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot__icon container mt-24 md:mt-10 mb-10">
+        <div class="border-b border-black relative">
+          <div
+            class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto"
+          >
+            <div class="bg-stone-100 text-lg text-center space-x-1">
+              <i
+                class="ri-instagram-line hover:text-slate-500 duration-300 cursor-pointer text-base"
+              ></i>
+              <i
+                class="ri-twitter-x-line hover:text-slate-500 duration-300 cursor-pointer text-base"
+              ></i>
+              <i
+                class="ri-youtube-fill hover:text-slate-500 duration-300 cursor-pointer"
+              ></i>
+              <i
+                class="ri-facebook-fill hover:text-slate-500 duration-300 cursor-pointer"
+              ></i>
+              <i
+                class="ri-tiktok-fill hover:text-slate-500 duration-300 cursor-pointer"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="foot__content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-current md:text-start"
+      >
+        <div>
+          <div class="text-3xl font-bold font-Poppins text-center inline-block">
+            <p>Brand.</p>
+          </div>
+        </div>
+
+        <div>
+          <p class="mb-2 font-bold text-xl">Menu</p>
+          <div class="flex flex-col gap-1">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <p class="mb-2 font-bold text-xl">Service</p>
+          <div class="flex flex-col gap-1">
+            <a href="#">Education</a>
+            <a href="#">Assesment</a>
+            <a href="#">Coaching</a>
+            <a href="#">Training</a>
+            <a href="#">Counseling</a>
+            <a href="#">Happy Aging</a>
+          </div>
+        </div>
+
+        <div>
+          <p class="mb-2 font-bold text-xl">Contact Us</p>
+          <div class="flex flex-col gap-1">
+            <a href="#">+62 888-8888-8888</a>
+            <a href="#">Lorem ipsum@email.com</a>
+            <br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy__right container">
+        <p class="text-center mt-10 opacity-50">Copyright &copy; 2024</p>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <a
+      href="#"
+      class="fixed right-4 -bottom-1/2 bg-white border border-black rounded-full shadow-md inline-block px-3 py-2 text-lg hover:-translate-y-1 duration-300"
+      id="scroll-up"
+    >
+      <i class="ri-arrow-up-s-line text-3xl"></i>
+    </a>
+
+    <script src="/assets/js/scrollreveal.min.js"></script>
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
