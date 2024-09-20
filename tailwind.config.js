@@ -26,6 +26,9 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {},
+    backgroundImage: {
+      "hero-pattern": "url('/assets/img/3.jpg')",
+    },
     keyframes: {
       move: {
         "50%": { transform: "translateV(-1rem" },

@@ -850,12 +850,8 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-\[url\(\'\/assets\/img\/3\.jpg\'\)\]{
+.bg-hero-pattern{
   background-image: url('/assets/img/3.jpg');
-}
-
-.bg-cover{
-  background-size: cover;
 }
 
 .p-5{
@@ -1180,6 +1176,10 @@ h1{
     margin-top: 2.5rem;
   }
 
+  .md\:mt-6{
+    margin-top: 1.5rem;
+  }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1219,6 +1219,10 @@ h1{
 @media (min-width: 768px){
   .lg\:static{
     position: static;
+  }
+
+  .lg\:mt-2{
+    margin-top: 0.5rem;
   }
 
   .lg\:hidden{

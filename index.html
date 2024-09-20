@@ -61,10 +61,7 @@
 
     <!-- HERO START -->
 
-    <section
-      id="home"
-      class="bg-[url('/assets/img/3.jpg')] bg-cover text-white relative"
-    >
+    <section id="home" class="bg-hero-pattern text-white relative">
       <div class="container">
         <div
           class="w-64 h-64 bg-slate-500 rounded-full blur-3xl -z-5 opacity-40 absolute bottom-0 right-0"
@@ -73,7 +70,9 @@
         <div></div>
 
         <div class="flex flex-col items-center gap-5 lg:flex-row">
-          <div class="home__data w-full space-y-5 lg:w-1/2">
+          <div
+            class="home__data w-full space-y-5 lg:w-1/2 mt-10 md:mt-6 lg:mt-2"
+          >
             <h1 class="font-Poppins">
               Lorem ipsum dolor sit <br />
               amet consectetur <br />
@@ -127,7 +126,7 @@
 
     <section id="about" class="relative overflow-hidden bg-white">
       <div
-        class="about__top flex flex-col items-center gap-3 text-center mb-10"
+        class="about__top flex flex-col items-center gap-3 text-center mb-10 mt-10"
       >
         <h4 class="font-bold text-xl md:text-2xl">About</h4>
         <p class="mt-2 mb-4 max-w-md">
@@ -189,111 +188,109 @@
     <!-- SERVICE START -->
 
     <section id="service" class="bg-white text-black py-20">
-      <div>
-        <div class="container">
-          <div class="w-full px-4">
-            <div class="service__top max-w-xl mx-auto text-center mb-6">
-              <h4 class="font-bold text-xl md:text-2xl">Our Services</h4>
-              <p class="mt-2 mb-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                pariatur assumenda placeat quod. Quos sequi laboriosam dolorem
-                ex esse numquam.
-              </p>
-            </div>
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="service__top max-w-xl mx-auto text-center mb-6 mt-10">
+            <h4 class="font-bold text-xl md:text-2xl">Our Services</h4>
+            <p class="mt-2 mb-16">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              pariatur assumenda placeat quod. Quos sequi laboriosam dolorem ex
+              esse numquam.
+            </p>
           </div>
         </div>
+      </div>
+      <div
+        class="container w-full grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3"
+      >
         <div
-          class="container w-full grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3"
+          class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
         >
-          <div
-            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
-          >
-            <div class="flex items-center gap-5">
-              <i
-                class="ri-graduation-cap-line text-2xl md:text-2xl lg:text-4xl"
-              ></i>
-              <p class="font-bold md:text-lg">Education</p>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos, placeat.
-            </p>
+          <div class="flex items-center gap-5">
+            <i
+              class="ri-graduation-cap-line text-2xl md:text-2xl lg:text-4xl"
+            ></i>
+            <p class="font-bold md:text-lg">Education</p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos, placeat.
+          </p>
+        </div>
 
-          <div
-            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
-          >
-            <div class="flex items-center gap-5">
-              <i
-                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
-              ></i>
-              <p class="font-bold md:text-lg">Assesment</p>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos, placeat.
-            </p>
+        <div
+          class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+        >
+          <div class="flex items-center gap-5">
+            <i
+              class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+            ></i>
+            <p class="font-bold md:text-lg">Assesment</p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos, placeat.
+          </p>
+        </div>
 
-          <div
-            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
-          >
-            <div class="flex items-center gap-5">
-              <i
-                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
-              ></i>
-              <p class="font-bold md:text-lg">Coaching</p>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos, placeat.
-            </p>
+        <div
+          class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+        >
+          <div class="flex items-center gap-5">
+            <i
+              class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+            ></i>
+            <p class="font-bold md:text-lg">Coaching</p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos, placeat.
+          </p>
+        </div>
 
-          <div
-            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
-          >
-            <div class="flex items-center gap-5">
-              <i
-                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
-              ></i>
-              <p class="font-bold md:text-lg">Training</p>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos, placeat.
-            </p>
+        <div
+          class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+        >
+          <div class="flex items-center gap-5">
+            <i
+              class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+            ></i>
+            <p class="font-bold md:text-lg">Training</p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos, placeat.
+          </p>
+        </div>
 
-          <div
-            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
-          >
-            <div class="flex items-center gap-5">
-              <i
-                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
-              ></i>
-              <p class="font-bold md:text-lg">Counseling</p>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos, placeat.
-            </p>
+        <div
+          class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+        >
+          <div class="flex items-center gap-5">
+            <i
+              class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+            ></i>
+            <p class="font-bold md:text-lg">Counseling</p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos, placeat.
+          </p>
+        </div>
 
-          <div
-            class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
-          >
-            <div class="flex items-center gap-5">
-              <i
-                class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
-              ></i>
-              <p class="font-bold md:text-lg">Happy Aging</p>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos, placeat.
-            </p>
+        <div
+          class="service__card border-2 border-black p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+        >
+          <div class="flex items-center gap-5">
+            <i
+              class="ri-graduation-cap-line text-2xl md:text-3xl lg:text-4xl"
+            ></i>
+            <p class="font-bold md:text-lg">Happy Aging</p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos, placeat.
+          </p>
         </div>
       </div>
     </section>
@@ -367,10 +364,10 @@
         <div>
           <p class="mb-2 font-bold text-xl">Menu</p>
           <div class="flex flex-col gap-1">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
 
