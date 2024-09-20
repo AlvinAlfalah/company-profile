@@ -48,3 +48,16 @@ h1 {
 .btn_subs {
   @apply border border-black bg-white text-black hover:bg-black hover:text-white;
 }
+
+.accordion-header {
+  @apply py-4 px-6 cursor-pointer;
+}
+
+.accordion-header.active i {
+  @apply transition ease-in-out duration-500;
+  transform: rotateX(180deg);
+}
+
+.accordion-body {
+  @apply max-h-0 overflow-hidden transition-all duration-500 ease-out;
+}

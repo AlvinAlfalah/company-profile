@@ -44,15 +44,20 @@ const sr = ScrollReveal({
   reset: true,
 });
 
-sr.reveal(".home__data, .about__top, .service__top, .news__letter");
+sr.reveal(
+  ".home__data, .about__top, .service__top, .news__letter, .contact__head"
+);
 sr.reveal(".home__image", {
   delay: 1000,
   scale: 0.7,
 });
 
-sr.reveal(".foot__icon, .foot__content, .copy__right", {
-  delay: 300,
-});
+sr.reveal(
+  ".foot__icon, .foot__content, .copy__right, .contact__us, .contact__faq",
+  {
+    delay: 300,
+  }
+);
 
 sr.reveal(".service__card", { interval: 300 });
 
@@ -63,6 +68,22 @@ sr.reveal(".about__item__1-img, .about__item__2-text", {
 sr.reveal(".about__item__2-img, .about__item__1-text", {
   origin: "right",
   interval: 300,
+});
+
+// ACCORDION
+
+const accordionHeader = document.querySelectorAll(".accordion-header");
+
+accordionHeader.forEach((accordionHeader) => {
+  accordionHeader.addEventListener("click", (event) => {
+    accordionHeader.classList.toggle("active");
+    const accordionBody = accordionHeader.nextElementSibling;
+    if (accordionHeader.classList.contains("active")) {
+      accordionBody.style.maxHeight = accordionBody.scrollHeight + "px";
+    } else {
+      accordionBody.style.maxHeight = 0;
+    }
+  });
 });
 
 // // FIXED NAVBAR
